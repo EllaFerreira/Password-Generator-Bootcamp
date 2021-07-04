@@ -8,3 +8,5 @@ GIVEN I need a new, secure password WHEN I click the button to generate a passwo
 
 #SCREEN SHOT#
 ![WhatsApp Image 2021-07-04 at 2 22 29 PM](https://user-images.githubusercontent.com/84433857/124373461-a176e300-dcd5-11eb-90f3-de2c6325db5c.jpeg)
+
+link to the password generator: https://ellaferreira.github.io/Password-Generator-Bootcamp/
