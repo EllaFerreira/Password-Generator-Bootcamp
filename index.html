@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--META LINKS-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--TITLE-->
+    <title>Password Generator</title>
+    <!--CSS -->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!--BODY-->
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator Tool</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+            id="password"
+            onclick="makePassword()"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate 🔑</button>
+        </div>
+      </div>
+    </div>
+    <!--SCRIPT LINK-->
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
