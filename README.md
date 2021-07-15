@@ -27,6 +27,7 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page.
 
 #Image#
+![Screen Shot 2021-07-15 at 1 16 22 pm](https://user-images.githubusercontent.com/84433857/125723787-1acacee0-1c02-4f24-9004-0c58eda2b6a9.png)
 
 
 link to the password generator: https://ellaferreira.github.io/Password-Generator-Bootcamp/
