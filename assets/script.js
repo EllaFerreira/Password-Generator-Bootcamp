@@ -54,14 +54,16 @@ function makePassword() {
     if (choiceCharacter == false) {
       characterSet = "";
     }
+    var randomNumber = "";
+    randomNumber = upperSet + lowerSet + numberSet + characterSet;
+    console.log("input", input);
     //LOOP FUNCTION
     function createMyPassword() {
       for (var i = 0; i < input; i++) {
-        var randomNumber = "";
-        randomNumber = upperSet + lowerSet + numberSet + characterSet;
-        password += randomNumber.substring(
-          Math.floor(Math.random()) * randomNumber.length
-        );
+        var j = Math.floor(Math.random() * randomNumber.length);
+        console.log(j);
+        password += randomNumber.charAt(j);
+        console.log(password);
       }
     }
     createMyPassword();
